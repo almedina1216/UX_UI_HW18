@@ -202,32 +202,32 @@ h3{
 
 .odd-work-card {
     background-color:  FFF;
+    justify-content: space-between;
     padding: 6rem 5rem 4rem 7rem;
-    gap: 6rem;
+    gap: 6rem; 
     display: grid;
-    grid-template-columns:1fr;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     grid-template-rows: (2,auto);
     grid-template-areas: 
-    "cardPhoto"
-    "cardInfo";
+    'cardPhoto cardInfo';
 }
-.right-odd-card{
-    grid-area:cardPhoto;
+.right-odd-card {
+    grid-area: cardPhoto;
 }
-.left-odd-card{
-    grid-area:cardInfo
+.left-odd-card {
+    grid-area: cardInfo;
 }
 
 
 .even-work-card {
     background-color: #b5e0f8;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 6rem 5rem 4rem 7rem;
     gap:6rem;
     display: grid;
-    grid-template-columns:
-        repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
 }
+
 .btn-push-project-odd {
     text-indent: -9999em;
 } 
@@ -310,7 +310,18 @@ footer {
     .hero-into-text{
         font-size: 30px;
     }
-
+    .odd-work-card {
+        background-color:  FFF;
+        justify-content: space-between;
+        padding: 6rem 5rem 4rem 7rem;
+        gap: 6rem; 
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+        grid-template-rows: (2,auto);
+        grid-template-areas: 
+        'cardPhoto' 
+        'cardInfo';
+    }
 }
 
 
