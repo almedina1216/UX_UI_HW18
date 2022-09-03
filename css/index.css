@@ -203,7 +203,7 @@ h3{
 .odd-work-card {
     background-color:  FFF;
     justify-content: space-between;
-    padding: 6rem 5rem 4rem 7rem;
+    padding: 10rem 5rem 4rem 7rem;
     gap: 6rem; 
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
@@ -222,7 +222,7 @@ h3{
 .even-work-card {
     background-color: #b5e0f8;
     justify-content: space-between;
-    padding: 6rem 5rem 4rem 7rem;
+    padding: 10rem 5rem 4rem 7rem;
     gap:6rem;
     display: grid;
     grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
